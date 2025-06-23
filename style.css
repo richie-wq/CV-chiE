@@ -89,3 +89,31 @@ body {
 .container .box-left ul li .data {
     color: #d9e1e4   
 }
+
+.container .box-left .resume-skills ul li {
+    display: flex;
+    margin-bottom: 10px;
+    color: #d9e114;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .box-left .resume-skills ul li .skills-name {
+    width: 25%;
+}
+
+.container .box-left .resume-skills ul li .skills-progress {
+    width: 60%;
+    margin: 0 5px;
+    height: 5px;
+    background-color: #ff5c5c;
+    position: relative;
+}
+
+.container .box-left .resume-skills ul li .skills-progress span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #fff
+}
